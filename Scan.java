@@ -118,6 +118,7 @@ public class Scan {
 					   "scan: line "+linenumber+
 					   " bad char (ASCII " + c
 					   + ")");
+			//return ccase1('?', TK.ERROR); //MIGHT NEED REMOVAL 
 			break;
 		}
 	    }
